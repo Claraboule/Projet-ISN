@@ -1,0 +1,8 @@
+
+body
+{
+    background-image: url("fond2.png");
+background-size: 100% 100%;
+   background-attachment: fixed; /* Le fond restera fixe */
+    background-repeat: no-repeat; /* Le fond ne sera pas répété */
+}

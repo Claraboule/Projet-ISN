@@ -1,0 +1,276 @@
+/*définition des polices*/
+@font-face
+{	font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*définition du curseur*/
+body{
+  cursor: crosshair;
+}
+a:link{
+  cursor:  pointer;
+}
+  
+  
+/*définition du corps général de la page */
+html, body {
+ margin: 10;
+ padding: 10;
+ }
+ 
+body
+{ 	font-family: 'Trebuchet MS', Arial, sans-serif, Georgia, Segoe Print;
+    color: #181818;
+	background-image:url(images/briques.png);
+}
+
+#bloc_page
+{
+    width: 80%;
+    margin: auto;
+}
+
+header
+{
+
+	margin-bottom: 5px;
+	margin-right: 3px;
+    display: flex; /* flex : capacité à modifier la largeur et/ou la hauteur des éléments pour remplir au mieux l'espace disponible sur n'importe quel appareil*/
+    align-items: flex-end; /* Le bord de la marge sur la ligne de fin, dans l'axe orthogonal à la direction, est alignée avec le bord de la marge sur la ligne de fin pour la rangée flexible.*/
+
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column; /*indique la façon dont les éléments flexibles sont placés dans un conteneur flexible : elle définit l'axe principal et la direction des éléments*/
+}
+
+#logo img
+{
+    width: 60px;
+}
+
+header h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 1.9em;
+
+}
+
+/*définition des onglets */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+nav li
+{ margin-right: 15px;}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+	font-family: 'Dayrom';
+}
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+ /* banniere */
+ 
+#banniere_description
+
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 18px;
+}
+
+
+
+/* définition des parties intérieures */
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+article, aside
+{
+    text-align: justify;
+}
+
+
+article
+{
+    margin-right: 10px;
+    flex: 3; /*largeur de la partie*/
+
+}
+
+article p
+{
+    font-size: 0.8em;
+}
+
+div#contenu {
+	height:101%;
+	}
+
+
+aside
+{
+    flex: 1.2;
+    position: relative;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+/*intérieur de la seconde partie */
+
+aside h1
+{
+font-family:Fineliner Script;
+font-size: 1.6em;
+text-align: center;
+}
+
+#photo_aside
+{
+    text-align: center;
+}
+aside img
+{
+    margin-right: 5px;
+}
+aside img
+{
+    margin-right: 5px;
+}
+
+
+/* Pied de page */
+
+
+footer
+{
+    display: flex;
+	background:  url('images/separateur.gif') repeat-x top center;
+    padding-top: 5px;
+}
+
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+
+footer h1
+{
+    font-size: 17px;
+	padding-top: 5px;
+	font-family: Dayrom;
+	color:#706b64;
+
+}
+
+
+
+#citation
+{
+    width: 28%;
+}
+
+
+#mes_photos
+{
+    width: 35%;
+		margin-left:20px;
+}
+
+
+#mes_amis
+{
+    width: 31%;
+}
+
+
+#mes_photos img
+{
+    border: 1px solid #1c1a19;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+
+#liste_liens
+
+{
+    display: flex;
+    margin-top: 0;
+}
+
+#liens ul
+{
+    list-style-image: url('images/flecheliens.png');
+    padding-left: 2px;
+	margin-left: 20px;
+}
+
+
+#liens a
+{
+    text-decoration: none;
+    color: #760001;
+}
+
+div#piedpage {
+	width:100%;
+	height:20px;
+    background-color: rgba(0, 0, 0, 0.5);
+	clear:both;
+	}
+
+
+

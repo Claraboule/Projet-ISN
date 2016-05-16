@@ -1,0 +1,186 @@
+﻿
+#banniere_image
+{
+    margin-top: 15px;
+    height: 120px;
+    border-radius: 5px;
+    background: url('images/backgrounds/banniereacceuil.jpg') ;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+
+
+div#soustitre
+{
+        margin-top :5px;
+        padding:0px;
+		font-size: 30px;
+		text-decoration: underline;
+		text-align: center;
+		color: black;
+		font-family: Fineliner Script;
+		
+}
+
+
+div#soustitre2
+{
+        margin-top :5px;
+        padding:0px;
+		font-size: 30px;
+		text-decoration: underline;
+		text-align: center;
+		color: white;
+		font-family: Fineliner Script;
+		
+}
+
+
+div#titreinterieur{
+	color: #FB0E0E;
+	margin-left: 150px;
+	font-size: 30px;
+	text-align: left;
+	font-family: Fineliner Script;
+	text-align: justify;
+	font-style: bold;
+}
+ div#texteinterieur2{
+	color: #003333;
+	font-size: 20px;
+	text-align: left;
+	padding-top: -20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	font-family: Dayrom;
+	text-align: justify;
+	line-height:20px;
+}
+
+
+.boussole {
+float:left;
+clear: both;
+margin:10px;
+}
+
+
+
+
+élément {
+    list-style-type: none;
+}
+.zone {
+    width: 800px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background: white;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 8px;
+    border-radius: 1em 5em / 7em 1em;
+    text-decoration: none;
+    border-top-color: white;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    display: inline-block;
+    position: relative;
+    font-size-adjust: none;
+    font-stretch: normal;
+    box-shadow: inset 0px 0.3em 0.3em rgba(255,254,255,0.6), inset 0px -0.1em 0.3em rgba(0,0,0,0.15), 0px 0.1em 3px hsl(0,0%,60%), 0px 0.3em 1px hsl(0,0%,45%), 0px 0.5em 5px rgba(0,0,0,0.2);
+    opacity: 0.9;
+    margin-left: 50px;
+}
+li {
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+
+
+.zone2 {
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    background: rgba(80, 134, 136, 0.8);
+    color: white;
+    font-size: 1.2em;
+    border-radius: 8px;
+    border-radius: 1em 5em / 7em 1em;
+    text-decoration: none;
+    border-top-color: rgba(255, 255, 255, 0.8);
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    display: inline-block;
+    position: relative;
+    font-size-adjust: none;
+    font-stretch: normal;
+    box-shadow: inset 0px 0.3em 0.3em rgba(255,254,255,0.6), inset 0px -0.1em 0.3em rgba(0,0,0,0.15), 0px 0.1em 3px hsl(0,0%,60%), 0px 0.3em 1px hsl(0,0%,45%), 0px 0.5em 5px rgba(0,0,0,0.2);
+    opacity: 0.9;
+    margin-left: 50px;
+}
+ div#texteinterieur3{
+	color: white;
+	font-size: 12px;
+	text-align: left;
+	padding-top: -20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	font-family: Dayrom;
+	text-align: justify;
+	line-height:20px;
+}
+
+.zone3 {
+    width: 800px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background: white;
+    color: #003333;
+    font-size: 1.2em;
+    border-radius: 8px;
+    border-radius: 1em 5em / 7em 1em;
+    text-decoration: none;
+    border-top-color: white;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    display: inline-block;
+    position: relative;
+    font-size-adjust: none;
+    font-stretch: normal;
+    box-shadow: inset 0px 0.3em 0.3em rgba(255,254,255,0.6), inset 0px -0.1em 0.3em rgba(0,0,0,0.15), 0px 0.1em 3px hsl(0,0%,60%), 0px 0.3em 1px hsl(0,0%,45%), 0px 0.5em 5px rgba(0,0,0,0.2);
+    opacity: 0.9;
+    margin-left: 50px;
+}
+
+ div#texteinterieur4{
+	color: #003333;
+	font-size: 14px;
+	text-align: left;
+	margin : 5px;
+	font-family: Dayrom;
+	text-align: justify;
+	line-height:20px;
+}
+
+.illustration-gauche {
+   
+    padding-left: 200px;
+}
+.illustration-gauche .pic {
+    float: left;
+    margin-left: -200px;
+	margin-top:-60px;
+}

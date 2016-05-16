@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="utf-8" />
+    <link href="partiecommune3.css" rel="stylesheet" media="all" type="text/css"> 
+	<title>LA BOUSSOLE</title>
+	<link rel="icon" type="image/png" href="images/acceuil/boussole2.png" />
+</head>
+	
+
+	
+<body>
+<div id="bloc_page">
+<header>
+		<div id="titre_principal">
+			 <div id="logo">
+                        <img src="images/boussole.gif" "alt="logo" />
+						
+                        <h1>Prepare ton avenir</h1>    
+                    </div>
+			<h2>LA BOUSSOLE QUI T'ORIENTE</h2>
+		</div>
+		<nav>
+		<ul>
+                        <li><a href="acceuil.html">&bull;Accueil</a></li>
+                        <li><a href="lettremotivation.html">&bull;Lettre de Motivation</a></li>
+                        <li><a href="#">&bull;CV</a></li>
+                        <li><a href="quiz.html">&bull;Quizz</a></li>
+						<li><a href="partiecodage.html">&bull;Réalisation</a></li>
+		</ul>
+		</nav>
+</header>
+<div id="banniere_image">
+        <div id="banniere_description">
+                   LES DESSOUS DE LA BOUSSOLE
+        </div>
+
+   </div>
+
+	<article>
+	<div id="contenu">
+	<ul class="zone" style="list-style-type:none;">
+			<ul><li><center><img src="DOSSIER/organisationgenerale.png" alt="img" width="800px"/></center></li>
+			<li>
+			
+			
+			
+			</li></ul>
+			</ul>
+	<ul class="zone" style="list-style-type:none;">
+	
+			<div id="soustitre">1. CODAGE DU QUIZ</div>
+			<li><center><img src="DOSSIER/quiz+traitement.png" alt="img" width="950px"/></center></li>
+			<li><center><img src="DOSSIER/quiz2.png" alt="img" width="950px"/></center></li>
+			<div id="soustitre">Une partie commune en CSS</div><br>
+			<b>Exemple avec la Partie littéraire fille</b><br>
+			<button type="button" onclick="toggle_div(this,'bouton1');">+</button>
+<div id="bouton1" style="display:none;"><li><center><img src="DOSSIER/variation1explications.png" alt="img" width="950px"/></center></li></div>
+<br><b>Code du CSS commun</b>
+<xmp>
+
+</xmp>
+
+			</ul>
+			
+		
+	</div>
+	
+	</article>
+	
+<footer>
+                <div id="citation">
+					<br><h1>La citation de la fin</h1>
+                    <p>La diff&eacute;rence entre la th&eacute;orie et la pratique, c'est que, en th&eacute;orie, il n'y a pas de diff&eacute;rence entre la th&eacute;orie et la pratique !</p>
+                </div>
+
+                 <div id="mes_photos">
+					<br><h1>Bouilles des créateurs</h1>
+                    <p><img src="images/footer/renaud.jpg" height="80"   alt="Photographie" /><img src="images/footer/sacha.jpg" height="80" alt="Photographie" /><img src="images/footer/clara.jpg" height="80" alt="Photographie" /></p>
+					</div>
+				<div id="liens">
+					<br><h1>Des liens utiles !</h1>
+                    <div id="liste_liens">
+                        <ul>
+                            <li><a href="http://www.onisep.fr/">ONISEP</a></li>
+                            <li><a href="http://www.letudiant.fr/">L'Etudiant</a></li>
+                            <li><a href="http://www.orientation-pour-tous.fr/">Orientation</a></li>
+                            <li><a href="http://www.e-orientations.com/">E-Orientation            .</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="http://www.lesmetiers.net/">Les metiers</a></li>
+                            <li><a href="http://www.studyrama.com/">Studyrama</a></li>
+                            <li><a href="#">un grenu sauvage</a></li>
+                            <li><a href="#">la reine d'angleterre</a></li>
+                        </ul>
+					</div>
+
+                </div>
+
+            </footer>
+           
+			
+
+
+
+
+
+<div id="piedpage">Ceci est un site cr&eacute;&eacute; dans le cadre de l'option ISN en 2051-2016 au Lyc&eacute;e PGDG !</div>
+
+
+
+
+</div>
+
+<script type="text/javascript">
+function toggle_div(bouton, id) { // On déclare la fonction toggle_div qui prend en param le bouton et un id
+  var div = document.getElementById(id); // On récupère le div ciblé grâce à l'id
+  if(div.style.display=="none") { // Si le div est masqué...
+    div.style.display = "block"; // ... on l'affiche...
+    bouton.innerHTML = "-"; // ... et on change le contenu du bouton.
+  } else { // S'il est visible...
+    div.style.display = "none"; // ... on le masque...
+    bouton.innerHTML = "+"; // ... et on change le contenu du bouton.
+  }
+}
+</script>
+</body>
+</html>
+
+

@@ -1,0 +1,89 @@
+.slider
+{
+    /*overflow: hidden;*/
+    width: 75%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 360px;
+    overflow: hidden;
+}
+.slider *
+{
+    padding: 0;
+    margin: 0;
+}
+#container
+{
+    position: relative;
+    width: 300%;
+    overflow: hidden;
+    height: 360px;
+    left:0%;
+    transition: all .5s ease-in;
+}
+#container figure
+{
+    display: inline-block;
+    position: relative;
+    width: 33.33333%;
+    max-height: 360px;
+    overflow: hidden;
+}
+#container figure figcaption
+{
+    position: absolute;
+    top: 0px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    left: 15%;
+    right: 15%;
+    background-color: rgba(255,255,255,0.7);
+    bottom: 0;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(30,30,30);
+    font-family: 'Titre';
+    overflow: auto;
+}
+#container figure figcaption h3
+{
+    font-size: 3vw;
+}
+#container figure figcaption p
+{
+    font-size: 1.5vw;
+}
+#container figure img
+{
+    width:100%;
+}
+#myhorsefamilly:target ~ #main .slider #container
+{
+    left:0%;
+}
+#ecuriegroupe:target ~ #main .slider #container
+{
+    left:-100%;
+}
+#classement:target ~ #main .slider #container
+{
+    left:-200%;
+}
+
+#main nav.navigation #lnk_myhorsefamilly:before,
+#ecuriegroupe:target ~ #main nav.navigation #lnk_ecuriegroupe:before,
+#classement:target ~ #main nav.navigation #lnk_classement:before,
+#ecuries:target ~ nav.navigation #lnk_ecuries:before
+{
+    display: block;
+}
+#ecuriegroupe:target ~ #main nav.navigation #lnk_myhorsefamilly:before,
+#classement:target ~ #main nav.navigation #lnk_myhorsefamilly:before,
+#ecuries:target ~ nav.navigation #lnk_myhorsefamilly:before
+{
+    display: none;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="utf-8" />
+   	<link href="lettre.css" rel="stylesheet" media="all" type="text/css"> 
+	<title>LA BOUSSOLE</title>
+	<link rel="icon" type="image/png" href="images/acceuil/boussole2.png" />
+</head>
+	
+
+	
+<body>
+<div id="bloc_page">
+<header>
+		<div id="titre_principal">
+			 <div id="logo">
+                        <img src="images/boussole.gif" "alt="logo" />
+						
+                        <h1>Site du tonerre</h1>    
+                    </div>
+			<h2>NOTRE SITE MEGA CHOUETTE</h2>
+		</div>
+		<nav>
+		<ul>
+                        <li><a href="acceuil.html">&bull;Accueil</a></li>
+                        <li><a href="#">&bull;Lettre de Motivation</a></li>
+                        <li><a href="#">&bull;CV</a></li>
+                        <li><a href="quiz.html">&bull;Quizz</a></li>
+						<li><a href="partiecodage.html">&bull;Réalisation</a></li>
+		</ul>
+		</nav>
+</header>
+<div id="banniere_image">
+        <div id="banniere_description">
+                   Un petit coup de pouce pour te motiver !
+        </div>
+
+   </div>
+<section>
+	<article><div id="contenu">
+		<div id="titre">Crée ta lettre de motivation  </div>
+		<div id="cadre">
+			
+<h1> Sélectioner les bonnes informations</h1>
+		<form method="post" action="/cgi-bin/lettre.py">
+			<fieldset class="fieldset">Votre Prénom et votre NOM<input type="text" name="prenom et nom" />
+			<br>Votre adresse complète<input type="text" />
+			<br>Téléphone portable / Email<input type="text" />
+			<br>Nom de l'établissement :<input type="text" />
+			<br>Jour : <select name="jour">
+				<option value="1" >Lundi</option>
+				<option value="2" >Mardi</option>
+				<option value="3" >Mercredi</option>
+				<option value="4" >Jeudi</option>
+				<option value="5" >Vendredi</option>
+				<option value="6" >Samedi</option>
+				<option value="7" >Dimanche</option>
+			</select>
+			Date : <select name="date">
+				<option value="1" >1</option>
+				<option value="2" >2</option>
+				<option value="3" >3</option>
+				<option value="4" >4</option>
+				<option value="5" >5</option>
+				<option value="6" >6</option>
+				<option value="7" >7</option>
+				<option value="8" >8</option>
+				<option value="9" >9</option>
+				<option value="10" >10</option>
+				<option value="11" >11</option>
+				<option value="12" >12</option>
+				<option value="13" >13</option>
+				<option value="14" >14</option>
+				<option value="15" >15</option>
+				<option value="16" >16</option>
+				<option value="17" >17</option>
+				<option value="18" >18</option>
+				<option value="19" >19</option>
+				<option value="20" >20</option>
+				<option value="21" >21</option>
+				<option value="22" >22</option>
+				<option value="23" >23</option>
+				<option value="24" >24</option>
+				<option value="25" >25</option>
+				<option value="26" >26</option>
+				<option value="27" >27</option>
+				<option value="28" >28</option>
+				<option value="29" >29</option>
+				<option value="30" >30</option>
+				<option value="31" >31</option>
+			</select>
+			Mois :<select name="mois">
+				<option value="1" >Janvier</option>
+				<option value="2" >Février</option>
+				<option value="3" >Mars</option>
+				<option value="4" >Avril</option>
+				<option value="5" >Mai</option>
+				<option value="6" >Juin</option>
+				<option value="7" >Juillet</option>
+				<option value="8" >Aout</option>
+				<option value="9" >Septembre</option>
+				<option value="10" >Octobre</option>
+				<option value="11" >Novembre</option>
+				<option value="12" >Décembre</option>
+			</select>
+			Année :<input type="text" /> 
+<br> En quelle terminale étes vous :<select name="classe">
+				<option value="1" >L</option>
+				<option value="2" >S</option>
+				<option value="3" >ES</option>
+				<option value="4" >STI2D</option>
+				<option value="5" >STL</option>
+				<option value="6" >STMG</option>
+				<option value="7" >ST2S</option>
+		</select>
+<br> Votre lycée :<input type="text" />
+						
+<br>Formation que vous voulez suivre<select name="formation">
+				<option value="1" >Licence</option>
+				<option value="2" >DUT</option>
+				<option value="3" >CPGE</option>
+				<option value="4" >BTS</option>
+			</select>
+<br> Etablissement dans lequel vous voulez aller et la formation que vous voulez suivre :<input type="text" />
+
+<br>Matiéres scolaire qui vous plaisent actuellement :
+				<br><input type="checkbox" /> Mathématiques
+				<br><input type="checkbox" /> Français
+				<br><input type="checkbox" /> Sport
+				<br><input type="checkbox" /> Histoire
+				<br><input type="checkbox" /> Philosophie
+				<br><input type="checkbox" /> Physique Chimie
+				<br><input type="checkbox" /> Langues
+				<br><input type="checkbox" /> SVT
+				<br><input type="checkbox" /> Sciences de l'Ingénieur
+
+<br>Vos hobbies :<input type="text" />
+
+
+<br><input type="submit" name="lancer"  value="Valider">
+		</form> </fieldset> <br>
+
+		</div></div>
+	</article>
+	<aside> 
+		<h1>Quelques conseils :</h1>
+		<div style="padding:3px; background-color:#1C884A;">
+			<p class="structure"><img src="images/hommelivre.gif" width="100px" alt="structure" /></p>
+				<div style="padding:3px; border-top:3px dotted #fff; border-bottom:3px dotted #fff; margin-left:3px;">
+					<strong>Structure et mise en page</strong>:
+					<br><i>Adresse</i> Placez vos coordonnées en haut à gauche, ainsi que votre numéro de téléphone et votre adresse e-mail, notez celles de l’entreprise à qui vous écrivez en haut à droite. (voir modèle)
+<br><i>Titre</i> Sur la ligne de libellé, indiquez l’intitulé et la référence du poste qui vous intéresse si vous répondez à une annonce ; ou Offre spontanée si vous envoyez votre candidature spontanément.
+<br><i>Longueur</i> Votre lettre doit tenir sur une page A4.
+<br><i>Signature</i> N’oubliez pas de signer votre lettre à la main. 
+				</div>
+		</div>
+<br>
+<div style="padding:3px; background-color:#1C884A;border-radius:10px; border:2px #fff;">
+<p class="contenulettre"><img src="images/hommelivre2.gif" width="130px" alt="contenulettre" /></p>
+<div style="border-radius:8px; padding:3px; border-top:3px groove #fff; border-bottom:3px groove #fff; border-left:3px groove #fff; border-right:3px groove #fff; margin-left:1px;">
+<strong>Contenu de la lettre</strong>: 
+<br><i>Disponibilité</i> Votre lettre doit également mentionner votre disponibilité pour un entretien personnel. Si vous avez au préalable téléphoné avec le service du personnel, mentionnez-le dans votre lettre et indiquez la date de la communication et le nom de votre interlocuteur.
+<br><i>Sans faute</i> Corrigez les fautes de grammaire et d’orthographe. Utilisez le correcteur d’orthographe de votre ordinateur. Relisez-vous et faites relire votre lettre. 
+
+</div>
+</div><br>
+ <p class="avionenpapier"><img src="images/avionenpapier.png" width="200px" alt="hahaha" /></p>
+
+	</aside>
+	</section>
+<footer>
+                <div id="citation">
+					<br><h1>La citation de la fin</h1>
+                    <p>La diff&eacute;rence entre la th&eacute;orie et la pratique, c'est que, en th&eacute;orie, il n'y a pas de diff&eacute;rence entre la th&eacute;orie et la pratique !</p>
+                </div>
+
+                 <div id="mes_photos">
+					<br><h1>Bouilles des créateurs</h1>
+                   <p><img src="images/footer/renaud.jpg" height="80"   alt="Photographie" /><img src="images/footer/sacha.jpg" height="80" alt="Photographie" /><img src="images/footer/clara.jpg" height="80" alt="Photographie" /></p>   </div>
+				<div id="liens">
+					<br><h1>Des liens utiles !</h1>
+                    <div id="liste_liens">
+                        <ul>
+                            <li><a href="http://www.onisep.fr/">ONISEP</a></li>
+                            <li><a href="http://www.letudiant.fr/">L'Etudiant</a></li>
+                            <li><a href="http://www.orientation-pour-tous.fr/">Orientation</a></li>
+                            <li><a href="http://www.e-orientations.com/">E-Orientation            .</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="http://www.lesmetiers.net/">Les metiers</a></li>
+                            <li><a href="http://www.studyrama.com/">Studyrama</a></li>
+                            <li><a href="#">un grenu sauvage</a></li>
+                            <li><a href="#">la reine d'angleterre</a></li>
+                        </ul>
+					</div>
+
+                </div>
+
+            </footer>
+			
+
+
+
+
+
+<div id="piedpage">Ceci est un site cr&eacute;&eacute; dans le cadre de l'option ISN en 2015-2016 au Lyc&eacute;e PGDG !</div>
+
+
+
+
+</div>
+</body>
+</html>
+
+
+
